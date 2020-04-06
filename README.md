@@ -1,4 +1,4 @@
-## Integration Project - Paxful - Test
+## Integration Project
 
 STATUS: It is not finished because I didn't have time. However, I would love to explain what was the idea.
 
