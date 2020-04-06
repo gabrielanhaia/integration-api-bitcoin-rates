@@ -25,7 +25,7 @@ class GetExchangeRates extends AbstractRequester
         $response = $this->guzzleClient->get($urlApi);
 
         // TODO: Create enum for the HTTP status codes.
-        if ($response->getStatusCode() !== 202) {
+        if ($response->getStatusCode() !== 200) {
             throw new \Exception('Error getting the exchange rates list.');
         }
 
